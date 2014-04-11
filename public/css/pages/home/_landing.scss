@@ -1,0 +1,71 @@
+//cp-core landing dashboard css
+.landing{
+  h1, h2, h3, h4, p, span{
+    font-family: 'Roboto Light';
+  }
+
+  header{
+    padding:12px 32px 0px 32px;
+    float:left;
+    width:100%;
+    ul li{
+      padding:0px 16px;
+      a{
+        color:$color-text;
+        font-size:em(16, $text-size-base);
+      }
+    }
+  }
+
+  h2{
+    font-size:em(32, $text-size-base);
+    padding:12px 0px;
+  }
+  section{
+    width:100%;
+    float:left;
+    padding:32px 0px;
+  }
+  .section-content{
+      width:960px;
+      margin:0 auto;
+      .list-inline li{
+        padding:0px 40px 20px 0px;
+      }
+    p{
+      font-size:em(24, $text-size-base);
+    }
+  }
+
+  .what-cp-is{
+    ul li{
+      padding:16px 0px;
+      float:left;
+      width:100%;
+      span{
+        float:left;
+        font-size:em(24, $text-size-base);
+        line-height:em(28, $text-size-base);
+      }
+      .img-holder{
+        width:100px;
+        text-align:center;
+        margin:0px 12px 0px 0px;
+      }
+    }
+  }
+
+  .introduction-section{
+    text-align:center;
+    h2{
+      font-size:em(48, $text-size-base);
+    }
+    h4{
+      font-size: em(18, $text-size-base);
+    }
+  }
+  .black-patch{
+    background-color:$color-text;
+    color:$color-text-reversed;
+  }
+}

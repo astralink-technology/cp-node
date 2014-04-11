@@ -1,0 +1,30 @@
+@import "../partials/_vars"; //variables for cp-core
+
+//Sass Libraries and Mixin
+@import "../../../cp-front/css/lib/_normalize"; //normalizer
+@import "../../../cp-front/css/lib/bourbon/bourbon"; //bourbon mixin
+@import "../../../cp-front/css/lib/_compass_mixin"; //compass mixin
+@import "../../../cp-front/css/lib/customize-controls/customize-controls"; //boostrap customized controls
+
+//cp-core bootstrap controls overrides
+@import "../partials/cp-core-customize-controls/_cp-core-controls";
+
+@import "../partials/_layout"; //layout for cp-core
+
+//pages
+/*account pages */
+@import "account/_login";
+
+/*home pages */
+@import "home/_home";
+@import "home/_dashboard";
+@import "home/_landing";
+
+/*utilities pages */
+@import "utilities/_generator";
+/*error pages*/
+@import "error/_illegal";
+@import "error/_missing";
+
+
+@include sticky-footer(40px,40px);

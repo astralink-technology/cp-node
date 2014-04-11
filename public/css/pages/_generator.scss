@@ -1,0 +1,54 @@
+.script-generator{
+    section{
+        float:left;
+        width:100%;
+    }
+    
+    h1{
+        margin:12px 0px 0px 0px;
+    }
+    p{
+        margin:8px 0px 0px 0px;
+    }
+    .main-section{
+        width:80%;
+        float:left;
+    }
+    aside{
+        width:20%;
+        float:left;
+        padding:64px 32px;
+        @include box-sizing(border-box);
+    }
+    .script-detection{
+        display:table-row;
+        margin:0px 0px 20px 0px;
+        width:100%;
+        float:left;
+        div{
+            display:table-cell;
+            width:300px;
+        }
+        ul{
+            padding:0px 0px 0px 20px;
+        }
+    }
+    .well{
+        margin:20px 0px;
+        float:left;
+        width:100%;
+        .upload{
+            width:100%;
+        }
+        .uploaded-file-description{
+            float:left;
+            display:table-cell;
+            label{
+                margin:8px 0px;
+            }
+        }
+        .btn-generate{
+            float:right;
+        }
+    }
+}
