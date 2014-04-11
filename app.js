@@ -4,13 +4,14 @@
  */
 
 var express = require('express'),
-  routes = require('./routes'),
-  core = require('./routes/core/'),
-  http = require('http'),
-  path = require('path');
+    routes = require('./routes'),
+    core = require('./routes/core/'),
+    eyeorcas = require('./routes/eyeorcas'),
+    helperDemo = require('./routes/helper-demo'),
+    http = require('http'),
+    path = require('path');
 
 var app = module.exports = express();
-
 
 /**
  * Configuration
@@ -50,6 +51,14 @@ app.get ('/core/:base/:api', core);
 app.post ('/core/:base/:api', core);
 app.put ('/core/:base/:api', core);
 app.delete ('/core/:base/:api', core);
+
+app.get ('/eyeorcas/:base/:api', eyeorcas);
+app.post ('/eyeorcas/:base/:api', eyeorcas);
+app.put ('/eyeorcas/:base/:api', eyeorcas);
+app.delete ('/eyeorcas/:base/:api', eyeorcas);
+
+//Helper Demos (Test Platform)
+app.get ('/helper-demo/:base/:method', helperDemo);
 
 // redirect all others to the index (HTML5 history)
 app.get('*', routes.index);

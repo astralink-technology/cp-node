@@ -14,9 +14,21 @@ exports.connectAndQuery = function(req, res, queryString, variables){
             , variables
             , function(err, result) {
                 if(err) {
-                    return console.error(err);
+                    res.json({
+                        RowsReturned : null,
+                        Data : null,
+                        Error : true,
+                        ErrorDesc : err,
+                        ErrorCode: 500
+                    });
                 }else{
-                    res.json(result.rows);
+                    res.json({
+                        RowsReturned : result.rows.length,
+                        Data : result.rows,
+                        Error : false,
+                        ErrorDesc : null,
+                        ErrorCode: null
+                    });
                 }
                 client.end();
             });
