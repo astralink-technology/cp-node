@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getImage = function(req, res){
 
     var imageId = null;

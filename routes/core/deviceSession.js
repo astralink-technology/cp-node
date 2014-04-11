@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getDeviceSession = function(req, res){
     var deviceId = null;
     var connectedDeviceId = null;

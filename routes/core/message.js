@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getMessage = function(req, res){
     var messageId = null;
     var message = null;

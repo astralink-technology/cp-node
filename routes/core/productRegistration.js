@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getProductRegistration = function(req, res){
     var productRegistrationId = null;
     var status = null;

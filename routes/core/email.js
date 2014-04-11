@@ -53,7 +53,13 @@ exports.addEmail = function(req, res){
                 , ownerId
             ]);
     }else{
-        res.send(500);
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorCode: 500
+        })
     }
 };
 exports.deleteEmail= function(req, res){
@@ -71,7 +77,13 @@ exports.deleteEmail= function(req, res){
                 emailId
             ]);
     }else{
-        res.send(500);
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorCode: 500
+        })
     }
 };
 exports.updateEmail = function(req, res){
@@ -99,7 +111,13 @@ exports.updateEmail = function(req, res){
                 , ownerId
             ]);
     }else{
-        res.send(500);
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorCode: 500
+        })
     }
     req.body;
 };

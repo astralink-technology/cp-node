@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getMedia = function(req, res){
     var mediaId = null;
     var title = null;

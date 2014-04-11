@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/helpers/dbConnect.js" afterPath="$PROJECT_DIR$/helpers/dbConnect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/activity.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/device.js" afterPath="$PROJECT_DIR$/routes/core/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/device.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceSession.js" afterPath="$PROJECT_DIR$/routes/core/deviceSession.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceValue.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/email.js" afterPath="$PROJECT_DIR$/routes/core/email.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webConfig.js" afterPath="$PROJECT_DIR$/config/webConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/enterprise.js" afterPath="$PROJECT_DIR$/routes/core/enterprise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/entity.js" afterPath="$PROJECT_DIR$/routes/core/entity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/image.js" afterPath="$PROJECT_DIR$/routes/core/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/log.js" afterPath="$PROJECT_DIR$/routes/core/log.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/media.js" afterPath="$PROJECT_DIR$/routes/core/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/media.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/message.js" afterPath="$PROJECT_DIR$/routes/core/message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/phone.js" afterPath="$PROJECT_DIR$/routes/core/phone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/product.js" afterPath="$PROJECT_DIR$/routes/core/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productRegistration.js" afterPath="$PROJECT_DIR$/routes/core/productRegistration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productValue.js" afterPath="$PROJECT_DIR$/routes/core/productValue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cp-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,95 +46,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deviceRelationship.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding>
-                <element signature="e#110#1166#0" expanded="false" />
-                <element signature="e#1231#3767#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypt.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/helper-demo/crypt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="364" selection-end="364" vertical-scroll-proportion="0.18134715" vertical-offset="0" max-vertical-offset="579">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbConnect.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="37" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/device.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="deviceRelationship.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationship.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="67" column="10" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/email.js">
+      <file leaf-file-name="entity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="1650">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/log.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/media.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/message.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="22" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productRegistration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productValue.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="34" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.103626944" vertical-offset="0" max-vertical-offset="1020">
+              <folding>
+                <element signature="e#196#1563#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/Media.js" />
         <option value="$PROJECT_DIR$/helpers/idgen.js" />
         <option value="$PROJECT_DIR$/helpers/dbconnect.js" />
@@ -146,7 +161,15 @@
         <option value="$PROJECT_DIR$/routes/helper-demo/index.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/mailsender.js" />
         <option value="$PROJECT_DIR$/helpers/datetime.js" />
-        <option value="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/datetime.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/idgen.js" />
+        <option value="$PROJECT_DIR$/config/webConfig.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/helpers/crypt.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
+        <option value="$PROJECT_DIR$/routes/core/device.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceSession.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceValue.js" />
@@ -159,21 +182,15 @@
         <option value="$PROJECT_DIR$/routes/core/phone.js" />
         <option value="$PROJECT_DIR$/routes/core/product.js" />
         <option value="$PROJECT_DIR$/routes/core/productRegistration.js" />
-        <option value="$PROJECT_DIR$/routes/core/productValue.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
-        <option value="$PROJECT_DIR$/routes/helper-demo/datetime.js" />
-        <option value="$PROJECT_DIR$/routes/helper-demo/idgen.js" />
-        <option value="$PROJECT_DIR$/routes/core/email.js" />
-        <option value="$PROJECT_DIR$/routes/core/device.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/device.js" />
-        <option value="$PROJECT_DIR$/config/webConfig.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
+        <option value="$PROJECT_DIR$/helpers/mailSender.js" />
         <option value="$PROJECT_DIR$/helpers/apiResponse.js" />
         <option value="$PROJECT_DIR$/helpers/dbConnect.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/helpers/crypt.js" />
-        <option value="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
+        <option value="$PROJECT_DIR$/routes/core/productValue.js" />
+        <option value="$PROJECT_DIR$/routes/core/email.js" />
+        <option value="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
       </list>
     </option>
   </component>
@@ -240,24 +257,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cp-node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cp-node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +338,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -362,15 +375,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cp-legacy" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes/helper-demo" />
       <recent name="$PROJECT_DIR$/helpers" />
+      <recent name="$PROJECT_DIR$/routes/helper-demo" />
       <recent name="$PROJECT_DIR$/routes/helperDemo" />
       <recent name="$PROJECT_DIR$/routes/eyeorcas" />
       <recent name="$PROJECT_DIR$/routes/core" />
@@ -466,116 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/mailSender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="930">
-          <folding>
-            <marker date="1397192286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/idGen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/dateTime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="73" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
@@ -587,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/idgen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/helper-demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="35" selection-start="0" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -601,86 +500,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/mailsender.js">
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/idgen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="4" column="1" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/crypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/enterprise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/email.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="193" selection-end="193" vertical-scroll-proportion="0.15544042" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
@@ -694,32 +530,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="128" column="0" selection-start="4990" selection-end="4990" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
           <folding>
-            <element signature="e#110#1166#0" expanded="false" />
-            <element signature="e#1231#3767#0" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/dateTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="73" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/mailsender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/mailSender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="30" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="930">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
+        <state line="12" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.051813472" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="7" column="15" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/crypt.js">
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="364" selection-end="364" vertical-scroll-proportion="0.18134715" vertical-offset="0" max-vertical-offset="579">
+        <state line="17" column="24" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="653" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="2" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="10" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="10" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="34" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.103626944" vertical-offset="0" max-vertical-offset="1020">
+          <folding>
+            <element signature="e#196#1563#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

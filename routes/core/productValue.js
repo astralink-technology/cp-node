@@ -1,4 +1,6 @@
 dbconnectHelper = require('../../helpers/dbConnect');
+idgenHelper = require('../../helpers/idGen');
+dateTimeHelper = require('../../helpers/dateTime');
 exports.getProductValue = function(req, res){
     var productValueId = null;
     var productValueName = null;
@@ -43,7 +45,57 @@ exports.getProductValue = function(req, res){
         ]);
 };
 exports.addProductValue= function(req, res){
-    req.body;
+    if (
+        req.body.ProductValueName &&
+            req.body.ProductId
+        ){
+        var productValueName = null;
+        var value = null;
+        var value2 = null;
+        var value3 = null;
+        var valueUnit = null;
+        var status = null;
+        var type = null;
+        var productId = null;
+
+        var productValueId = idgenHelper.generateId();
+        var createDate = dateTimeHelper.utcNow();
+
+        if (req.body.ProductValueName) productValueName = req.body.ProductValueName;
+        if (req.body.Value) value = req.body.Value;
+        if (req.body.Value2) value2 = req.body.Value2;
+        if (req.body.Value3) value3 = req.body.Value3;
+        if (req.body.ValueUnit) valueUnit = req.body.ValueUnit;
+        if (req.body.Status) status = req.body.Status;
+        if (req.body.Type) type = req.body.Type;
+        if (req.body.ProductId) productId = req.body.ProductId;
+
+        dbconnectHelper.connectAndQuery(
+            req
+            , res
+            , 'SELECT * FROM  add_product_value($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)'
+            , [
+                productValueId
+                , productValueName
+                , value
+                , value2
+                , value3
+                , valueUnit
+                , status
+                , type
+                , createDate
+                , null
+                , productId
+            ]);
+    }else{
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorCode: 500
+        })
+    }
 };
 exports.deleteProductValue= function(req, res){
     req.body;
