@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/product.js" afterPath="$PROJECT_DIR$/routes/core/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productRegistration.js" afterPath="$PROJECT_DIR$/routes/core/productRegistration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productValue.js" afterPath="$PROJECT_DIR$/routes/core/productValue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/phone.js" afterPath="$PROJECT_DIR$/routes/core/phone.js" />
     </list>
     <ignored path="cp-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="phone.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="780">
+            <state line="72" column="10" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.45595855" vertical-offset="816" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -90,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productRegistration.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="productRegistration.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="15" selection-start="4074" selection-end="4074" vertical-scroll-proportion="3.4196892" vertical-offset="0" max-vertical-offset="2220">
+            <state line="71" column="34" selection-start="2277" selection-end="2277" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2220">
               <folding />
             </state>
           </provider>
@@ -158,7 +156,6 @@
         <option value="$PROJECT_DIR$/routes/core/log.js" />
         <option value="$PROJECT_DIR$/routes/core/media.js" />
         <option value="$PROJECT_DIR$/routes/core/message.js" />
-        <option value="$PROJECT_DIR$/routes/core/phone.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/device.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
@@ -171,6 +168,7 @@
         <option value="$PROJECT_DIR$/routes/core/product.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
         <option value="$PROJECT_DIR$/routes/core/productRegistration.js" />
+        <option value="$PROJECT_DIR$/routes/core/phone.js" />
       </list>
     </option>
   </component>
@@ -692,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="25" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2475">
@@ -722,7 +713,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="15" selection-start="4074" selection-end="4074" vertical-scroll-proportion="3.4196892" vertical-offset="0" max-vertical-offset="2220">
+        <state line="71" column="34" selection-start="2277" selection-end="2277" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="10" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.45595855" vertical-offset="816" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
