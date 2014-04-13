@@ -54,23 +54,44 @@ http://{{host-name}}/core/device/getDevice
 **deleteDevice**
 
 #### Device Relationship
-**getDeviceRelationship**
+**getDeviceRelationship** (Released v0.1)
 
-**addDeviceRelationship**
+````
+http://{{host-name}}/core/deviceRelationship/getDeviceRelationship
+````
+
+
+**addDeviceRelationship** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceRelationship/addDeviceRelationship
+````
+
 
 **updateDeviceRelationship**
 
 **deleteDeviceRelationship**
 #### Device Relationship Value
-**getDeviceRelationshipValue**
+**getDeviceRelationshipValue** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceRelationshipValue/getDeviceRelationshipValue
+````
+
 
 **addDeviceRelationshipValue**
+
 
 **updateDeviceRelationshipValue**
 
 **deleteDeviceRelationshipValue**
 #### Device Session
-**getDeviceSession**
+**getDeviceSession** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceSession/getDeviceSession
+````
+
 
 **addDeviceSession**
 
@@ -78,7 +99,11 @@ http://{{host-name}}/core/device/getDevice
 
 **deleteDeviceSession**
 #### Device Value
-**getDeviceValue**
+**getDeviceValue** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceValue/getDeviceValue
+````
 
 **addDeviceValue**
 
@@ -86,15 +111,36 @@ http://{{host-name}}/core/device/getDevice
 
 **deleteDeviceValue**
 #### Email
-**getEmail**
+**getEmail** (Released v0.1)
 
-**addEmail**
+````
+http://{{host-name}}/core/email/getEmail
+````
+**addEmail** (Released v0.1)
 
-**updateEmail**
+````
+http://{{host-name}}/core/email/addEmail
+````
 
-**deleteEmail**
+**updateEmail** (Released v0.1)
+
+````
+http://{{host-name}}/core/email/updateEmail
+````
+
+**deleteEmail** (Released v0.1)
+
+````
+http://{{host-name}}/core/email/deleteEmail
+````
+
 #### Enterprise
-**getEnterprise**
+**getEnterprise** (Released v0.1)
+
+````
+http://{{host-name}}/core/enterprise/getEnterprise
+````
+
 
 **addEnterprise**
 
@@ -115,25 +161,11 @@ http://{{host-name}}/core/entity/getEntityDevice
 http://{{host-name}}/core/entity/getEntityDetail
 ````
 
-**addEntity** (Released v0.1)
+**addEntity**
 
-````
-http://{{host-name}}/core/entity/addEntity
-````
+**updateEntity**
 
-**updateEntity** (Released v0.1)
-
-````
-http://{{host-name}}/core/entity/updateEntity
-````
-
-**deleteEntity** (Released v0.1)
-
-
-````
-http://{{host-name}}/core/entity/deleteEntity
-````
-
+**deleteEntity**
 
 #### Image
 **getImage** (Released v0.1)
