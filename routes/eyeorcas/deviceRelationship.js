@@ -3,7 +3,7 @@ idgenHelper = require('../../helpers/idGen');
 dateTimeHelper = require('../../helpers/dateTime');
 cryptHelper = require('../../helpers/crypt');
 
-exports.getDeviceRelationshipEntity = function(req, res){
+exports.getEntityDeviceRelationship = function(req, res){
 
     var deviceId = null;
     var name = null;
@@ -41,7 +41,7 @@ exports.getDeviceRelationshipEntity = function(req, res){
             , skipSize
     ]);
 };
-exports.getDeviceRelationshipEntityDetails = function(req, res){
+exports.getEntityDeviceRelationshipDetails = function(req, res){
         var deviceId = null;
         var ownerId = null;
         var deviceName = null;

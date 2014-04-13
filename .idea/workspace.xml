@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/email.js" afterPath="$PROJECT_DIR$/routes/core/email.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/image.js" afterPath="$PROJECT_DIR$/routes/core/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/log.js" afterPath="$PROJECT_DIR$/routes/core/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/media.js" afterPath="$PROJECT_DIR$/routes/core/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/message.js" afterPath="$PROJECT_DIR$/routes/core/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/phone.js" afterPath="$PROJECT_DIR$/routes/core/phone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/product.js" afterPath="$PROJECT_DIR$/routes/core/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productRegistration.js" afterPath="$PROJECT_DIR$/routes/core/productRegistration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productValue.js" afterPath="$PROJECT_DIR$/routes/core/productValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
     </list>
     <ignored path="cp-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.3783784" vertical-offset="0" max-vertical-offset="555">
+            <state line="1" column="29" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="13" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deviceRelationship.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="25" selection-start="7638" selection-end="7638" vertical-scroll-proportion="0.46996465" vertical-offset="2464" max-vertical-offset="3030">
               <folding />
             </state>
           </provider>
@@ -90,33 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="24" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productRegistration.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="618" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2220">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productRegistration.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="22" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="productValue.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -156,7 +146,6 @@
         <option value="$PROJECT_DIR$/helpers/crypt.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
         <option value="$PROJECT_DIR$/routes/core/device.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceSession.js" />
@@ -180,6 +169,7 @@
         <option value="$PROJECT_DIR$/routes/core/image.js" />
         <option value="$PROJECT_DIR$/routes/core/log.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
       </list>
     </option>
   </component>
@@ -559,13 +549,6 @@
         <state line="8" column="47" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="4990" selection-end="4990" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
@@ -614,16 +597,6 @@
     <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="15" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
@@ -755,7 +728,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.3783784" vertical-offset="0" max-vertical-offset="555">
+        <state line="1" column="29" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="25" selection-start="7638" selection-end="7638" vertical-scroll-proportion="0.46996465" vertical-offset="2464" max-vertical-offset="3030">
           <folding />
         </state>
       </provider>

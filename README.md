@@ -5,7 +5,7 @@
 
 ***
 
-### *API Structure*
+### API Structure
 ````
 http://hostName/{{apiType}}/{{base}}/{{action}}
 ````
@@ -16,7 +16,7 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 
 `Action` - Action refers to the method user requests for - getDevice / getEmail / getimage 
 
-***
+---
 
 ### Node Modules
 
@@ -32,7 +32,9 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 
 `Pg-Node` **(pg)** - Postgres connection with NodeJs
 
-***
+---
+
+### Helper Functions
 
 
 ### CORE API
@@ -41,6 +43,9 @@ Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda
 
 #### Device
 **getDevice** (Released v0.1)
+````
+http://{{host-name}}/core/device/getDevice
+````
 
 **addDevice** 
 
@@ -99,86 +104,269 @@ Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda
 #### Entity
 **getEntity** (Released v0.1)
 
+````
+http://{{host-name}}/core/entity/getEntityDevice
+````
+
+
 **getEntityDetail** (Released v0.1)
+
+````
+http://{{host-name}}/core/entity/getEntityDetail
+````
 
 **addEntity** (Released v0.1)
 
+````
+http://{{host-name}}/core/entity/addEntity
+````
+
 **updateEntity** (Released v0.1)
 
+````
+http://{{host-name}}/core/entity/updateEntity
+````
+
 **deleteEntity** (Released v0.1)
+
+
+````
+http://{{host-name}}/core/entity/deleteEntity
+````
+
+
 #### Image
 **getImage** (Released v0.1)
 
+
+````
+http://{{host-name}}/core/image/getImage
+````
+
 **addImage** (Released v0.1)
+
+````
+http://{{host-name}}/core/image/addImage
+````
+
 
 **updateImage** (Released v0.1)
 
+````
+http://{{host-name}}/core/image/updateImage
+````
+
+
 **deleteImage** (Released v0.1)
+
+````
+http://{{host-name}}/core/image/deleteImage
+````
+
 #### Log
 **getLog** (Released v0.1)
 
+````
+http://{{host-name}}/core/log/getLog
+````
+
+
 **addLog** (Released v0.1)
+
+````
+http://{{host-name}}/core/log/addLog
+````
 
 **updateLog** (Released v0.1)
 
+````
+http://{{host-name}}/core/log/updateLog
+````
+
 **deleteLog** (Released v0.1)
+
+````
+http://{{host-name}}/core/log/deleteLog
+````
 
 #### Media
 **getMedia** (Released v0.1)
 
+````
+http://{{host-name}}/core/media/getMedia
+````
+
 **addMedia** (Released v0.1)
+
+````
+http://{{host-name}}/core/media/addMedia
+````
 
 **updateMedia** (Released v0.1)
 
+````
+http://{{host-name}}/core/media/updateMedia
+````
+
 **deleteMedia** (Released v0.1)
+
+````
+http://{{host-name}}/core/media/deleteMedia
+````
+
 #### Message
 **getMessage** (Released v0.1)
 
+````
+http://{{host-name}}/core/message/getMessage
+````
+
 **addMessage** (Released v0.1)
+
+````
+http://{{host-name}}/core/message/addMessage
+````
 
 **updateMessage** (Released v0.1)
 
+````
+http://{{host-name}}/core/message/updateMessage
+````
+
 **deleteMessage** (Released v0.1)
+
+````
+http://{{host-name}}/core/message/deleteMessage
+````
+
 #### Phone
 **getPhone** (Released v0.1)
 
+````
+http://{{host-name}}/core/phone/getPhone
+````
+
 **addPhone** (Released v0.1)
+
+````
+http://{{host-name}}/core/phone/addPhone
+````
 
 **updatePhone** (Released v0.1)
 
+````
+http://{{host-name}}/core/phone/updatePhone
+````
+
 **deletePhone** (Released v0.1)
+
+````
+http://{{host-name}}/core/phone/updatePhone
+````
+
 #### Product
 **getProduct** (Released v0.1)
 
+````
+http://{{host-name}}/core/product/getProduct
+````
+
 **addProduct** (Released v0.1)
+
+````
+http://{{host-name}}/core/product/addProduct
+````
 
 **updateProduct** (Released v0.1)
 
+````
+http://{{host-name}}/core/product/updateProduct
+````
+
 **deleteProduct** (Released v0.1)
+
+````
+http://{{host-name}}/core/product/deleteProduct
+````
+
 #### Product Registration
 **getProductRegistration** (Released v0.1)
 
+````
+http://{{host-name}}/core/productRegistration/getProductRegistration
+````
+
 **addProductRegistration** (Released v0.1)
 
+````
+http://{{host-name}}/core/productRegistration/addProductRegistration
+````
 **updateProductRegistration** (Released v0.1)
 
+````
+http://{{host-name}}/core/productRegistration/updateProductRegistration
+````
 **deleteProductRegistration** (Released v0.1)
+
+````
+http://{{host-name}}/core/productRegistration/deleteProductRegistration
+````
 #### Product Value
 **getProductValue** (Released v0.1)
 
+````
+http://{{host-name}}/core/productValue/getProductValue
+````
 **addProductValue** (Released v0.1)
 
+````
+http://{{host-name}}/core/productValue/addProductValue
+````
 **updateProductValue** (Released v0.1)
+
+````
+http://{{host-name}}/core/productValue/updateProductValue
+````
 
 **deleteProductValue** (Released v0.1)
 
-***
+````
+http://{{host-name}}/core/productValue/deleteProductValue
+````
+
+---
 
 ### EyeOrcas API
 eyeOrcas APIs are customized APIs for eyeOrcas Web App.
 #### Activity
+**getActivities** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/activities/getActivities
+````
+
 #### Device
+**getDeviceDetails** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/device/getDeivceDetails
+````
 #### Device Relationship
+**getEntityDeviceRelationship** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/deviceRelationship/getEntityDeviceRelationship
+````
+**getEntityDeviceRelationshipDetails** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/deviceRelationship/getEntityDeviceRelationshipDetails
+````
+**addEntityDeviceRelationshipWithValues** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/deviceRelationship/addEntityDeviceRelationshipWithValues
+````
 #### Media
 #### Product Registration
 
@@ -186,7 +374,7 @@ eyeOrcas APIs are customized APIs for eyeOrcas Web App.
 eyeOrcas Remote Manage APIs are customized APIs for eyeOracs Remote management Web App. Most of the APIs are secured for administration level access
 
 
-***
+---
 
 ### EyeOrcas (APIs Under Review)
 These eyeOrcas APIs are currently legacy APIs and will require review.
