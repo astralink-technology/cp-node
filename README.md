@@ -1,81 +1,192 @@
-# Angular Express Seed
+# CP-NODE
+## Overview
 
-Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
-application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
-to use Node to serve their app.
+**Chillipanda development stack in PEAN - NodeJS, ExpressJS, AngularJS and PostgreSQL**
 
-The seed contains angular libraries, test libraries and a bunch of scripts all preconfigured for
-instant web development gratification. Just clone the repo (or download the zip/tarball) and
-you're ready to develop your application.
+***
 
-The seed app shows how to wire together Angular client-side components with Express on the server.
-It also illustrates writing angular partials/views with the Jade templating library.
+### *API Structure*
+````
+http://hostName/{{apiType}}/{{base}}/{{action}}
+````
 
-_Note: Although Jade supports interpolation, you should be doing that mostly on the client. Mixing
-server and browser templating will convolute your app. Instead, use Jade as a syntactic sugar for
-HTML, and let AngularJS take care of interpolation on the browser side._
+`API Type` - API type refers to either CORE API / other customized API
 
-## How to use angular-express-seed
+`Base` - Base refers to the key component to request, such as device / entity / image
 
-Clone the angular-express-seed repository, run `npm install` to grab the dependencies, and start hacking!
+`Action` - Action refers to the method user requests for - getDevice / getEmail / getimage 
 
-### Running the app
+***
 
-Runs like a typical express app:
+### Node Modules
 
-    node app.js
+`ExpressJS` **(express)** - Standard WebServer JS Package
 
-### Running tests
+`BCrypt` **(bcrypt)**  - Encryption and Hashing
 
-Coming soon!
+`Jade` **(jade)**  - HTML Templating
 
-### Receiving updates from upstream
+`Mandrill` **(mandril-api)** - Mail Sending
 
-Just fetch the changes and merge them into your project with git.
+`Moment` **(moment)** - Dates Parsing
 
+`Pg-Node` **(pg)** - Postgres connection with NodeJs
 
-## Directory Layout
-    
-    app.js              --> app config
-    package.json        --> for npm
-    public/             --> all of the files to be used in on the client side
-      css/              --> css files
-        app.css         --> default stylesheet
-      img/              --> image files
-      js/               --> javascript files
-        app.js          --> declare top-level app module
-        controllers.js  --> application controllers
-        directives.js   --> custom angular directives
-        filters.js      --> custom angular filters
-        services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
-          angular/
-            angular.js            --> the latest angular js
-            angular.min.js        --> the latest minified angular js
-            angular-*.js          --> angular add-on modules
-            version.txt           --> version number
-    routes/
-      api.js            --> route for serving JSON
-      index.js          --> route for serving HTML pages and partials
-    views/
-      index.jade        --> main page for app
-      layout.jade       --> doctype, title, head boilerplate
-      partials/         --> angular view partials (partial jade templates)
-        partial1.jade
-        partial2.jade
+***
 
 
-
-## Example App
-
-A simple [blog](https://github.com/btford/angular-express-blog) based on this seed.
+### CORE API
+Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda Development
 
 
-## Contact
+#### Device
+**getDevice** (Released v0.1)
 
-For more information on AngularJS please check out http://angularjs.org/
-For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are
-your friends.
+**addDevice** 
 
-## License
-MIT
+**updateDevice**
+
+**deleteDevice**
+
+#### Device Relationship
+**getDeviceRelationship**
+
+**addDeviceRelationship**
+
+**updateDeviceRelationship**
+
+**deleteDeviceRelationship**
+#### Device Relationship Value
+**getDeviceRelationshipValue**
+
+**addDeviceRelationshipValue**
+
+**updateDeviceRelationshipValue**
+
+**deleteDeviceRelationshipValue**
+#### Device Session
+**getDeviceSession**
+
+**addDeviceSession**
+
+**updateDeviceSession**
+
+**deleteDeviceSession**
+#### Device Value
+**getDeviceValue**
+
+**addDeviceValue**
+
+**updateDeviceValue**
+
+**deleteDeviceValue**
+#### Email
+**getEmail**
+
+**addEmail**
+
+**updateEmail**
+
+**deleteEmail**
+#### Enterprise
+**getEnterprise**
+
+**addEnterprise**
+
+**updateEnterprise**
+
+**deleteEnterprise**
+#### Entity
+**getEntity** (Released v0.1)
+
+**getEntityDetail** (Released v0.1)
+
+**addEntity** (Released v0.1)
+
+**updateEntity** (Released v0.1)
+
+**deleteEntity** (Released v0.1)
+#### Image
+**getImage** (Released v0.1)
+
+**addImage** (Released v0.1)
+
+**updateImage** (Released v0.1)
+
+**deleteImage** (Released v0.1)
+#### Log
+**getLog** (Released v0.1)
+
+**addLog** (Released v0.1)
+
+**updateLog** (Released v0.1)
+
+**deleteLog** (Released v0.1)
+
+#### Media
+**getMedia** (Released v0.1)
+
+**addMedia** (Released v0.1)
+
+**updateMedia** (Released v0.1)
+
+**deleteMedia** (Released v0.1)
+#### Message
+**getMessage** (Released v0.1)
+
+**addMessage** (Released v0.1)
+
+**updateMessage** (Released v0.1)
+
+**deleteMessage** (Released v0.1)
+#### Phone
+**getPhone** (Released v0.1)
+
+**addPhone** (Released v0.1)
+
+**updatePhone** (Released v0.1)
+
+**deletePhone** (Released v0.1)
+#### Product
+**getProduct** (Released v0.1)
+
+**addProduct** (Released v0.1)
+
+**updateProduct** (Released v0.1)
+
+**deleteProduct** (Released v0.1)
+#### Product Registration
+**getProductRegistration** (Released v0.1)
+
+**addProductRegistration** (Released v0.1)
+
+**updateProductRegistration** (Released v0.1)
+
+**deleteProductRegistration** (Released v0.1)
+#### Product Value
+**getProductValue** (Released v0.1)
+
+**addProductValue** (Released v0.1)
+
+**updateProductValue** (Released v0.1)
+
+**deleteProductValue** (Released v0.1)
+
+***
+
+### EyeOrcas API
+eyeOrcas APIs are customized APIs for eyeOrcas Web App.
+#### Activity
+#### Device
+#### Device Relationship
+#### Media
+#### Product Registration
+
+### EyeOrcas Remote Management API
+eyeOrcas Remote Manage APIs are customized APIs for eyeOracs Remote management Web App. Most of the APIs are secured for administration level access
+
+
+***
+
+### EyeOrcas (APIs Under Review)
+These eyeOrcas APIs are currently legacy APIs and will require review.

@@ -78,7 +78,7 @@ exports.addProduct= function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }
@@ -106,7 +106,7 @@ exports.deleteProduct= function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }
@@ -153,7 +153,7 @@ exports.updateProduct = function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }

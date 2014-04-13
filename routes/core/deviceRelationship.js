@@ -63,7 +63,7 @@ exports.addDeviceRelationship= function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }

@@ -57,7 +57,7 @@ exports.addEmail = function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }
@@ -81,7 +81,7 @@ exports.deleteEmail= function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }
@@ -115,7 +115,7 @@ exports.updateEmail = function(req, res){
             RowsReturned : null,
             Data : null,
             Error : true,
-            ErrorDesc : "Internal Server Error - Parameters Requred",
+            ErrorDesc : "Internal Server Error - Parameters Required",
             ErrorCode: 500
         })
     }
