@@ -141,12 +141,25 @@ http://{{host-name}}/core/email/deleteEmail
 http://{{host-name}}/core/enterprise/getEnterprise
 ````
 
+**addEnterprise** (Released v0.1)
 
-**addEnterprise**
+````
+http://{{host-name}}/core/enterprise/addEnterprise
+````
 
-**updateEnterprise**
 
+**updateEnterprise** (Released v0.1)
+
+````
+http://{{host-name}}/core/enterprise/updateEnterprise
+````
 **deleteEnterprise**
+ (Released v0.1)
+
+````
+http://{{host-name}}/core/enterprise/getEnterprise
+````
+
 #### Entity
 **getEntity** (Released v0.1)
 
@@ -154,18 +167,29 @@ http://{{host-name}}/core/enterprise/getEnterprise
 http://{{host-name}}/core/entity/getEntityDevice
 ````
 
-
 **getEntityDetail** (Released v0.1)
 
 ````
 http://{{host-name}}/core/entity/getEntityDetail
 ````
 
-**addEntity**
+**addEntity** (Released v0.1)
+````
+http://{{host-name}}/core/entity/deleteEnterprise
+````
 
-**updateEntity**
+**updateEntity** (Released v0.1)
 
-**deleteEntity**
+````
+http://{{host-name}}/core/entity/updateEntity
+````
+
+**deleteEntity** (Released v0.1)
+
+````
+http://{{host-name}}/core/entity/deleteEntity
+````
+
 
 #### Image
 **getImage** (Released v0.1)
@@ -400,7 +424,17 @@ http://{{host-name}}/eyeorcas/deviceRelationship/getEntityDeviceRelationshipDeta
 http://{{host-name}}/eyeorcas/deviceRelationship/addEntityDeviceRelationshipWithValues
 ````
 #### Media
+**getDeviceRelationshipMedia** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/media/getDeviceRelationshipMedia
+````
 #### Product Registration
+**getEntityProductRegistrationDetail** (Released v0.1)
+
+````
+http://{{host-name}}/eyeorcas/productRegistration/getEntityProductRegistrationDetail
+````
 
 ### EyeOrcas Remote Management API
 eyeOrcas Remote Manage APIs are customized APIs for eyeOracs Remote management Web App. Most of the APIs are secured for administration level access
