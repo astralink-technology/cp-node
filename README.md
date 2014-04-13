@@ -1,7 +1,7 @@
 # CP-NODE
 ## Overview
 
-**Chillipanda development stack in PEAN - NodeJS, ExpressJS, AngularJS and PostgreSQL**
+**Chillipanda development stack in PANE - NodeJS, ExpressJS, AngularJS and PostgreSQL**
 
 ***
 
