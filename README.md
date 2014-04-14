@@ -35,7 +35,22 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 ---
 
 ### Helper Functions
+#### crypt
+**encrypt(`req`, `res`, `string`)** - encrypts a string and outputs a hashed string
 
+**decrypt(`req`, `res`, `hash`, `string`)** - compares a hashed string with an input string and returns a `true` or `false`
+ 
+#### dateTime
+**utcNow(`req`, `res`)** - gets the current universal date time stamp.
+
+#### idGen
+**generateId(`req`, `res`)** - generates a random string for database insertion
+
+#### dbConnect
+**connectAndQuery(`req`, `res`, `queryString`, `variables`)** - connects to the default database configuration state in the webConfig. Takes in the query string as a form of prepared statement (i.e. query with $1, $2, $3, etc.. variables) and requires user to input variables at the variables parameter.
+
+#### mailSender
+**sendMail(`req`, `res`, `htmlContent`, `text`, `subject`, `mailingList`, `importantMessage`)** - instantiate helper at any point in the codes to send an email.
 
 ### CORE API
 Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda Development
@@ -43,6 +58,7 @@ Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda
 
 #### Device
 **getDevice** (Released v0.1)
+
 ````
 http://{{host-name}}/core/device/getDevice
 ````
