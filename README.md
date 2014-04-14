@@ -32,6 +32,8 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 
 `Pg-Node` **(pg)** - Postgres connection with NodeJs
 
+`Forever` **(forever)** - Package that allows NodeJs to run forever on the server
+
 ---
 
 ### Helper Functions
@@ -63,11 +65,22 @@ Core APIs are APIs written mainly for CRUD purposes, copyright under Chillipanda
 http://{{host-name}}/core/device/getDevice
 ````
 
-**addDevice** 
+**addDevice** (Released v0.1)
 
-**updateDevice**
+````
+http://{{host-name}}/core/device/addDevice
+````
 
-**deleteDevice**
+**updateDevice** (Released v0.1)
+
+````
+http://{{host-name}}/core/device/updateDevice
+````
+**deleteDevice** (Released v0.1)
+
+````
+http://{{host-name}}/core/device/deleteDevice
+````
 
 #### Device Relationship
 **getDeviceRelationship** (Released v0.1)
@@ -82,25 +95,38 @@ http://{{host-name}}/core/deviceRelationship/getDeviceRelationship
 ````
 http://{{host-name}}/core/deviceRelationship/addDeviceRelationship
 ````
+**updateDeviceRelationship** (Released v0.1)
 
+````
+http://{{host-name}}/core/deviceRelationship/updateDeviceRelationship
+````
+**deleteDeviceRelationship** (Released v0.1)
 
-**updateDeviceRelationship**
+````
+http://{{host-name}}/core/deviceRelationship/deleteDeviceRelationship
+````
 
-**deleteDeviceRelationship**
 #### Device Relationship Value
 **getDeviceRelationshipValue** (Released v0.1)
 
 ````
 http://{{host-name}}/core/deviceRelationshipValue/getDeviceRelationshipValue
 ````
+**addDeviceRelationshipValue** (Released v0.1)
 
+````
+http://{{host-name}}/core/deviceRelationshipValue/addDeviceRelationshipValue
+````
+**updateDeviceRelationshipValue** (Released v0.1)
 
-**addDeviceRelationshipValue**
+````
+http://{{host-name}}/core/deviceRelationshipValue/updateDeviceRelationshipValue
+````
+**deleteDeviceRelationshipValue** (Released v0.1)
 
-
-**updateDeviceRelationshipValue**
-
-**deleteDeviceRelationshipValue**
+````
+http://{{host-name}}/core/deviceRelationshipValue/deleteDeviceRelationshipValue
+````
 #### Device Session
 **getDeviceSession** (Released v0.1)
 
@@ -108,12 +134,12 @@ http://{{host-name}}/core/deviceRelationshipValue/getDeviceRelationshipValue
 http://{{host-name}}/core/deviceSession/getDeviceSession
 ````
 
-
 **addDeviceSession**
 
 **updateDeviceSession**
 
 **deleteDeviceSession**
+
 #### Device Value
 **getDeviceValue** (Released v0.1)
 
@@ -126,6 +152,7 @@ http://{{host-name}}/core/deviceValue/getDeviceValue
 **updateDeviceValue**
 
 **deleteDeviceValue**
+
 #### Email
 **getEmail** (Released v0.1)
 
@@ -458,5 +485,21 @@ eyeOrcas Remote Manage APIs are customized APIs for eyeOracs Remote management W
 
 ---
 
-### EyeOrcas (APIs Under Review)
+### EyeOrcas un-versioned (APIs Under Review)
 These eyeOrcas APIs are currently legacy APIs and will require review.
+
+#### Device
+
+**addDeviceWithValues**
+
+**addDeviceFromApp**
+
+**removeDeviceFromApp**
+
+**getDevicesFromApp**
+
+#### Device Relationship
+
+**updateDeviceAndDeviceRelationshipWithValues**
+
+**removeEntityDeviceRelationshipWithValues**

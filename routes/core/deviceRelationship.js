@@ -69,8 +69,68 @@ exports.addDeviceRelationship= function(req, res){
     }
 };
 exports.deleteDeviceRelationship= function(req, res){
-    req.body;
+    if (
+        req.body.DeviceRelationshipId
+        ){
+
+        var deviceRelationshipId = null;
+
+        if (req.body.DeviceRelationshipId) deviceRelationshipId = req.body.DeviceRelationshipId;
+
+        dbconnectHelper.connectAndQuery(
+            req
+            , res
+            , 'SELECT * FROM  delete_device_relationship($1)'
+            , [
+                deviceRelationshipId
+            ]);
+    }else{
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Required",
+            ErrorCode: 500
+        })
+    }
 };
 exports.updateDeviceRelationship = function(req, res){
-    req.body;
+    if (
+        req.body.DeviceRelationshipid &&
+        req.body.OwnerId &&
+        req.body.DeviceId
+        ){
+
+        var deviceRelationshipId = null;
+        var deviceId = null;
+        var ownerId  = null;
+        var appName  = null;
+
+        if (req.body.DeviceRelationshipId) deviceRelationshipId = req.body.DeviceRelationshipId;
+        if (req.body.OwnerId) ownerId = req.body.OwnerId;
+        if (req.body.DeviceId) deviceId = req.body.DeviceId;
+        if (req.body.AppName) appName = req.body.AppName;
+
+        var lastUpdate = dateTimeHelper.utcNow();
+
+        dbconnectHelper.connectAndQuery(
+            req
+            , res
+            , 'SELECT * FROM  updateDeviceRelationship($1, $2, $3, $4, $5)'
+            , [
+                deviceRelationshipId
+                , deviceId
+                , ownerId
+                , lastUpdate
+                , appName
+            ]);
+    }else{
+        res.json({
+            RowsReturned : null,
+            Data : null,
+            Error : true,
+            ErrorDesc : "Internal Server Error - Parameters Required",
+            ErrorCode: 500
+        })
+    }
 };

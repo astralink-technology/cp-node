@@ -1,6 +1,5 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "cp-node",
   "private": true,
   "dependencies": {
       "express": "~3.2.6",
@@ -9,6 +8,7 @@
       "knex" : "*",
       "mandrill-api" : "*",
       "moment" : "*",
-      "bcrypt" : "*"
+      "bcrypt" : "*",
+      "forever" : "*"
   }
 }

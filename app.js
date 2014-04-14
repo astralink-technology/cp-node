@@ -24,6 +24,9 @@ app.set('view engine', 'jade');
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
+app.use(express.cookieParser());
+app.use(express.session({secret: 'sh1w31p@ssw0rd'}));
+
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
 
@@ -57,7 +60,7 @@ app.post ('/eyeorcas/:base/:api', eyeorcas);
 app.put ('/eyeorcas/:base/:api', eyeorcas);
 app.delete ('/eyeorcas/:base/:api', eyeorcas);
 
-//Helper Demos (Test Platform)
+//Helper Demos
 app.get ('/helper-demo/:base/:method', helperDemo);
 
 // redirect all others to the index (HTML5 history)
