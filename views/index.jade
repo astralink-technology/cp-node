@@ -1,16 +1,7 @@
 extends layout
-
+block title
+    | CP-NODE
 block body
   div(class="root", ng-controller='AppCtrl')
-    h2 Hello {{name}}
-    ul.menu
-      li
-        a(href='view1') view1
-      li
-        a(href='view2') view2
+      h1 CP-NODE
 
-    div(ng-view)
-
-    div
-      | Angular seed app: v
-      span(app-version)

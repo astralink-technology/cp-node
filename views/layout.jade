@@ -3,7 +3,8 @@ html(ng-app="cp-core")
     head
         meta(charset='utf8')
         base(href='/')
-        title Angular Express Seed App
+        title
+            block title
         link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,100,100italic,300,300italic')
         link(rel='stylesheet', type='text/css', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
         link(rel='stylesheet', type='text/css', href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
@@ -20,12 +21,4 @@ html(ng-app="cp-core")
         script(src='js/directives.js')
 
     body
-        header(class="site-header")
-            div(class="header-wrapper")
-                div(class="logo")
-                    div(class="pull-left")a(href="/home")img(src="/img/cp-logo.png", width="200px", height="43px")
-
         block body
-
-    div(id="footer")
-        div(class="credits")Chilli Panda 2012 - 2014

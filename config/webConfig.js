@@ -1,13 +1,14 @@
 exports.dbConfig = function(){
     var dbConfig = new Object();
-
+    //When launching for eyeOrcas, use this
     dbConfig.appName = 'eyeOrcas';
     dbConfig.username = 'ubuntu';
     dbConfig.password = 'astralink';
     dbConfig.host = 'api.eyeorcas.com';
     dbConfig.port = '5432';
     dbConfig.db = 'OrcasEye';
-//
+
+    //When launching for chillipanda, use this
 //    dbConfig.appName = 'cp-core';
 //    dbConfig.username = 'shiwei';
 //    dbConfig.password = 's8944896d';

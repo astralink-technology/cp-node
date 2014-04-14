@@ -9,6 +9,7 @@
       "mandrill-api" : "*",
       "moment" : "*",
       "bcrypt" : "*",
-      "forever" : "*"
+      "forever" : "*",
+      "marked" : "*"
   }
 }

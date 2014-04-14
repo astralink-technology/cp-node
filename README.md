@@ -3,7 +3,7 @@
 
 **Chillipanda development stack in PANE - NodeJS, ExpressJS, AngularJS and PostgreSQL**
 
-***
+---
 
 ### API Structure
 ````
@@ -458,7 +458,7 @@ http://{{host-name}}/core/productValue/deleteProductValue
 
 ---
 
-### EyeOrcas API
+### eyeOrcas API
 eyeOrcas APIs are customized APIs for eyeOrcas Web App.
 #### Activity
 **getActivities** (Released v0.1)
@@ -502,14 +502,14 @@ http://{{host-name}}/eyeorcas/media/getDeviceRelationshipMedia
 http://{{host-name}}/eyeorcas/productRegistration/getEntityProductRegistrationDetail
 ````
 
-### EyeOrcas Remote Management API
-eyeOrcas Remote Manage APIs are customized APIs for eyeOrcas Remote management Web App. All of the APIs are secured for administration level access
+### eyeOrcas Remote Management API
+eyeOrcas Remote Manage--- APIs are customized APIs for eyeOrcas Remote management Web App. All of the APIs are secured for administration level access
 
 
 
 ---
 
-### EyeOrcas un-versioned (APIs Under Review)
+### eyeOrcas un-versioned (APIs Under Review)
 These eyeOrcas APIs are currently legacy APIs and will require review.
 
 #### Device
