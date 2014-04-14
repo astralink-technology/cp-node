@@ -503,7 +503,8 @@ http://{{host-name}}/eyeorcas/productRegistration/getEntityProductRegistrationDe
 ````
 
 ### EyeOrcas Remote Management API
-eyeOrcas Remote Manage APIs are customized APIs for eyeOracs Remote management Web App. Most of the APIs are secured for administration level access
+eyeOrcas Remote Manage APIs are customized APIs for eyeOrcas Remote management Web App. All of the APIs are secured for administration level access
+
 
 
 ---
@@ -526,3 +527,19 @@ These eyeOrcas APIs are currently legacy APIs and will require review.
 **updateDeviceAndDeviceRelationshipWithValues**
 
 **removeEntityDeviceRelationshipWithValues**
+
+#### Log
+
+**addLogsFromServer**
+
+#### Media
+
+**addMediaFromHXS**
+
+#### Message
+
+**removeMessageByDeviceId**
+
+**removeMessageByOwnerId**
+
+**getMessagesByEntity**
