@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/device.js" afterPath="$PROJECT_DIR$/routes/core/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceSession.js" afterPath="$PROJECT_DIR$/routes/core/deviceSession.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceValue.js" />
     </list>
     <ignored path="cp-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,25 +68,25 @@
       <file leaf-file-name="deviceRelationshipValue.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="32" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="3060">
+            <state line="84" column="60" selection-start="2890" selection-end="2949" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deviceSession.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deviceSession.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="862" selection-end="862" vertical-scroll-proportion="0.58549225" vertical-offset="6" max-vertical-offset="630">
+            <state line="88" column="5" selection-start="1974" selection-end="2531" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deviceValue.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deviceValue.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="136" column="25" selection-start="4302" selection-end="4319" vertical-scroll-proportion="3.6042402" vertical-offset="0" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
@@ -108,7 +104,7 @@
       <file leaf-file-name="enterprise.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/enterprise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="2040">
+            <state line="91" column="5" selection-start="1916" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -149,7 +145,6 @@
         <option value="$PROJECT_DIR$/routes/helper-demo/idgen.js" />
         <option value="$PROJECT_DIR$/config/webConfig.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/routes/core/deviceSession.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/device.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
@@ -169,7 +164,6 @@
         <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
         <option value="$PROJECT_DIR$/routes/core/entity.js" />
         <option value="$PROJECT_DIR$/routes/core/enterprise.js" />
-        <option value="$PROJECT_DIR$/routes/core/deviceValue.js" />
         <option value="$PROJECT_DIR$/helpers/crypt.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/training/session-training.js" />
@@ -180,6 +174,8 @@
         <option value="$PROJECT_DIR$/routes/core/device.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
+        <option value="$PROJECT_DIR$/routes/core/deviceSession.js" />
+        <option value="$PROJECT_DIR$/routes/core/deviceValue.js" />
       </list>
     </option>
   </component>
@@ -405,7 +401,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="22" width="1260" height="722" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -418,7 +414,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25779969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25779969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -751,20 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="32" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="3060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/email.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="24" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1920">
@@ -774,14 +756,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/enterprise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.0" vertical-offset="1281" max-vertical-offset="2040">
+        <state line="91" column="5" selection-start="1916" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="862" selection-end="862" vertical-scroll-proportion="0.58549225" vertical-offset="6" max-vertical-offset="630">
+        <state line="88" column="5" selection-start="1974" selection-end="2531" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="60" selection-start="2890" selection-end="2949" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="25" selection-start="4302" selection-end="4319" vertical-scroll-proportion="3.6042402" vertical-offset="0" max-vertical-offset="3300">
           <folding />
         </state>
       </provider>

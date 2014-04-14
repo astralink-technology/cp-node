@@ -134,11 +134,23 @@ http://{{host-name}}/core/deviceRelationshipValue/deleteDeviceRelationshipValue
 http://{{host-name}}/core/deviceSession/getDeviceSession
 ````
 
-**addDeviceSession**
+**addDeviceSession**  (Released v0.1)
 
-**updateDeviceSession**
+````
+http://{{host-name}}/core/deviceSession/addDeviceSession
+````
 
-**deleteDeviceSession**
+**updateDeviceSession**  (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceSession/updateDeviceSession
+````
+
+**deleteDeviceSession**  (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceSession/deleteDeviceSession
+````
 
 #### Device Value
 **getDeviceValue** (Released v0.1)
@@ -147,11 +159,23 @@ http://{{host-name}}/core/deviceSession/getDeviceSession
 http://{{host-name}}/core/deviceValue/getDeviceValue
 ````
 
-**addDeviceValue**
+**addDeviceValue**  (Released v0.1)
 
-**updateDeviceValue**
+````
+http://{{host-name}}/core/deviceValue/addDeviceValue
+````
 
-**deleteDeviceValue**
+**updateDeviceValue** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceValue/updateDeviceValue
+````
+
+**deleteDeviceValue** (Released v0.1)
+
+````
+http://{{host-name}}/core/deviceValue/deleteDeviceValue
+````
 
 #### Email
 **getEmail** (Released v0.1)
@@ -196,8 +220,7 @@ http://{{host-name}}/core/enterprise/addEnterprise
 ````
 http://{{host-name}}/core/enterprise/updateEnterprise
 ````
-**deleteEnterprise**
- (Released v0.1)
+**deleteEnterprise** (Released v0.1)
 
 ````
 http://{{host-name}}/core/enterprise/getEnterprise
