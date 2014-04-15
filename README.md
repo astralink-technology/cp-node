@@ -506,40 +506,77 @@ http://{{host-name}}/eyeorcas/productRegistration/getEntityProductRegistrationDe
 eyeOrcas Remote Manage--- APIs are customized APIs for eyeOrcas Remote management Web App. All of the APIs are secured for administration level access
 
 
-
 ---
 
 ### eyeOrcas un-versioned (APIs Under Review)
 These eyeOrcas APIs are currently legacy APIs and will require review.
 
+#### Authentication
+
+**logInFromApp** (High Priority Release)
+
+- Rewrite based on old SP
+- App Requires the entityDetails to be returned
+
+**signUp** (High Priority Release)
+
+**login**
+
+**verifyAccount** (High Priority Release)
+
+- U for unverified
+- V for verified
+
+**resetPasswordRequest**
+
+**resetPassword**
+
+**assignAdmin**	
+
 #### Device
 
-**addDeviceWithValues**
+**addDeviceFromApp** (High Priority Release)
 
-**addDeviceFromApp**
+- Refer to SP
 
-**removeDeviceFromApp**
+**removeDeviceFromApp** (High Priority Release)
 
-**getDevicesFromApp**
+- Remove device relationship and device relationship value
 
-#### Device Relationship
+**getDevicesFromApp** (High Priority Release)
 
-**updateDeviceAndDeviceRelationshipWithValues**
-
-**removeEntityDeviceRelationshipWithValues**
+- get the details from device, device relationship and device relationship value based on ownerId 
+- Also query another database to get the status of Z-Wave and Surveillance (require to write third party SQL CONNECT)
 
 #### Log
 
-**addLogsFromServer**
+**addLogsFromServer** (High Priority Release)
+
+Adds logs from multiple account that is sharing a same device
+
+- Get Device relationship ids based on device code
+- OwnerId is the deviceRelationshipId
 
 #### Media
 
-**addMediaFromHXS**
+**addMediaFromHXS** (High Priority Release)
+
+Add Media from HXS basically gets the uploaded file, sends and email to available recepients and also to add media to the gallery directory of entities that are sharing the same device
+
+- Get the json file package (uploade file)
+- Copy the file to temp directory
+- Check if email recepient exists, send an email with attachment
+	- Could be null, multiple (shiweifong@gmail.com, cety@astralink.com.sg, hx@astralink.com.sg)
+- Get Device relationship ids based on device code
+- Store into their gallery directory /var/www/gallery/entityId   
+- Add Media record to database
 
 #### Message
 
-**removeMessageByDeviceId**
+**removeMessageByDeviceRelationshipId** (High Priority Release)
 
-**removeMessageByOwnerId**
+- Look into using multiple parameters for deleting ease
 
-**getMessagesByEntity**
+**getMessagesByDerivedDeviceRelationshipIdFromEntityId** (High Priority Release)
+
+- Join Device relationship and message table and pass in entityId as device relationship owner
