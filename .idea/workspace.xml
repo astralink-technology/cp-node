@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/md-html-converter.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/activity.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/crypt.js" afterPath="$PROJECT_DIR$/helpers/crypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/helper-demo/crypt.js" afterPath="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/device.js" afterPath="$PROJECT_DIR$/routes/core/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/device.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceSession.js" afterPath="$PROJECT_DIR$/routes/core/deviceSession.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/email.js" afterPath="$PROJECT_DIR$/routes/core/email.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/enterprise.js" afterPath="$PROJECT_DIR$/routes/core/enterprise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/entity.js" afterPath="$PROJECT_DIR$/routes/core/entity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/image.js" afterPath="$PROJECT_DIR$/routes/core/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/log.js" afterPath="$PROJECT_DIR$/routes/core/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/media.js" afterPath="$PROJECT_DIR$/routes/core/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/media.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/message.js" afterPath="$PROJECT_DIR$/routes/core/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/phone.js" afterPath="$PROJECT_DIR$/routes/core/phone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/product.js" afterPath="$PROJECT_DIR$/routes/core/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productRegistration.js" afterPath="$PROJECT_DIR$/routes/core/productRegistration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productValue.js" afterPath="$PROJECT_DIR$/routes/core/productValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webConfig.js" afterPath="$PROJECT_DIR$/config/webConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/authentication.js" afterPath="$PROJECT_DIR$/helpers/authentication.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/authentication.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/authentication.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/helper-demo/authentication.js" afterPath="$PROJECT_DIR$/routes/helper-demo/authentication.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/helper-demo/session.js" afterPath="$PROJECT_DIR$/routes/helper-demo/session.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cp-node.iws" />
@@ -55,7 +33,7 @@
       <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/eyeorcas/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="47" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1470">
+            <state line="109" column="0" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
@@ -65,15 +43,6 @@
         <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -100,7 +69,16 @@
       <file leaf-file-name="authentication.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helpers/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="8" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7668394" vertical-offset="1506" max-vertical-offset="2205">
+            <state line="107" column="69" selection-start="4169" selection-end="4169" vertical-scroll-proportion="0.6744604" vertical-offset="1230" max-vertical-offset="3675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/helper-demo/session.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="41" selection-start="259" selection-end="259" vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -109,7 +87,7 @@
       <file leaf-file-name="entity.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="10" selection-start="3180" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2970">
+            <state line="39" column="65" selection-start="1308" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2970">
               <folding />
             </state>
           </provider>
@@ -118,7 +96,7 @@
       <file leaf-file-name="crypt.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="13" column="10" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -136,7 +114,7 @@
       <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/helper-demo/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="36" column="30" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -168,7 +146,6 @@
         <option value="$PROJECT_DIR$/helpers/apiResponse.js" />
         <option value="$PROJECT_DIR$/routes/training/session-training.js" />
         <option value="$PROJECT_DIR$/helpers/session.js" />
-        <option value="$PROJECT_DIR$/routes/helper-demo/session.js" />
         <option value="$PROJECT_DIR$/md-html-converter.js" />
         <option value="$PROJECT_DIR$/README.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
@@ -202,9 +179,10 @@
         <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
         <option value="$PROJECT_DIR$/helpers/crypt.js" />
+        <option value="$PROJECT_DIR$/helpers/dbConnect.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/session.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/authentication.js" />
         <option value="$PROJECT_DIR$/routes/eyeorcas/authentication.js" />
-        <option value="$PROJECT_DIR$/helpers/dbConnect.js" />
         <option value="$PROJECT_DIR$/helpers/authentication.js" />
       </list>
     </option>
@@ -603,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="35" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
@@ -820,30 +791,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="24" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
@@ -857,14 +807,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="10" selection-start="3180" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2970">
+        <state line="39" column="65" selection-start="1308" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="259" selection-end="259" vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="30" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/authentication.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="8" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7668394" vertical-offset="1506" max-vertical-offset="2205">
+        <state line="107" column="69" selection-start="4169" selection-end="4169" vertical-scroll-proportion="0.6744604" vertical-offset="1230" max-vertical-offset="3675">
           <folding />
         </state>
       </provider>

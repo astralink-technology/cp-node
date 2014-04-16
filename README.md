@@ -46,7 +46,13 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 
 ### Helper Functions
 #### Authentication
-**authenticate(`req`, `res`, `userString`, `pass`, `legacy`, `callback`)** - authenticate user to app, legacy input for true / false for PHP password compat fallback.
+**authenticate(`req`, `res`, `userString`, `pass`, `legacy`, `callback`)** - authenticate user to app, legacy input for true / false for PHP password compat fallback. Creates user session
+
+**newAuthentication(`req`, `res`, `userString`, `pass`, `firstName`, `lastName`, `callback`)** - Create a new authentication and a new entity. Generic sign up method
+
+**authenticateExpress(`req`, `res`, `userString`)** - Login user directly and creates a session without user
+
+**destroyAuthentication(`req`, `res`)** - Destroy the session and log users out
 
 #### crypt
 **encrypt(`req`, `res`, `string`)** - encrypts a string and outputs a hashed string
@@ -519,19 +525,19 @@ Returns entity details by default
 
 ##### verifyAccount `Released v0.1`
 
-Authentication / User Verification API for eyeOrcas App / Portal
+Authentication / User Verification API for eyeOrcas App / Portal. If user is not logged in when clicked on verify link, use will be logged in. Details will be returned
 
 ````
 http://{{host-name}}/eyeorcas/authentication/verifyAccount
 ````
-**Parameters**
+**Parameters**	
 
 `GET` `AuthenticationId` - user's authentication ID is the key for verification
 
 
 **Results**
 
-Returns true as verified and false as verification failed.
+Returns true after verification. Returns false if verification failes. If user is not logged in, he / she will be logged in automatically upon verification and user details will be returned
 
 ````
 {
@@ -566,10 +572,60 @@ http://{{host-name}}/eyeorcas/authentication/newAuthentication
 Returns created user details upon success
 
 ````
+{
+  "RowsReturned": 1,
+  "Data": {
+    "entity_id": "3455VRKV-PUYO4LTD-ET35HRJO",
+    "first_name": "Node",
+    "last_name": "User",
+    "nick_name": null,
+    "name": "Node User",
+    "status": "U",
+    "approved": false,
+    "type": "1",
+    "create_date": "2014-04-16T01:33:54.670Z",
+    "last_update": null,
+    "authentication_id": "Q69GWFDM-RW2D5GX7-T9MG4Y6G",
+    "primary_email_id": "nodeuser@gmail.com",
+    "primary_phone_id": null,
+    "authorization_level": null,
+    "last_login": null,
+    "last_logout": null,
+    "authentication_string": "nodeUser@gmail.com",
+    "total_rows": 1
+  },
+  "Error": false,
+  "ErrorDesc": null,
+  "ErrorCode": null
+}
 
 ````
 
+##### destroyAuthentication `Released v0.1`
 
+Log users out.
+
+````
+http://{{host-name}}/eyeorcas/authentication/destroyAuthentication
+````
+**Parameters**
+
+No parameters required
+
+**Results**
+
+Returns true upon destroyed
+
+````
+{
+  "RowsReturned": null,
+  "Data": true,
+  "Error": false,
+  "ErrorDesc": null,
+  "ErrorCode": null
+}
+
+````
 #### Activity
 **getActivities** (Released v0.1)
 

@@ -13,22 +13,16 @@ exports.authenticate = function(req, res){
         if (req.body.AuthenticationString) authenticationString= req.body.AuthenticationString;
         if (req.body.Password) password = req.body.Password;
 
-        authHelper.authenticate(req, res, authenticationString, password, true, function(authenticated, authenticationId){
-            if (authenticated){
+        authHelper.authenticate(req, res, authenticationString, password, true, function(result, entityDetails){
+            if (result){
                 //if user is authenticated
-                    dbConnectHelper.connectAndQuery(req, res
-                        , 'SELECT * FROM entity WHERE ' +
-                            'authentication_id =  $1'
-                        , [authenticationId]
-                        , function(result){
-                            res.json({
-                                RowsReturned : result.rows.length,
-                                Data : result.rows,
-                                Error : null,
-                                ErrorDesc : null,
-                                ErrorCode: null
-                            });
-                        });
+                res.json({
+                    RowsReturned : entityDetails.rows.length,
+                    Data : entityDetails.rows,
+                    Error : false,
+                    ErrorDesc : null,
+                    ErrorCode: null
+                })
             }else{
                 res.json({
                     RowsReturned : null,
@@ -38,7 +32,6 @@ exports.authenticate = function(req, res){
                     ErrorCode: null
                 });
             }
-
         });
 
     }else{
@@ -52,12 +45,67 @@ exports.authenticate = function(req, res){
     }
 };
 
-exports.verifyAccount = function(req, res){
+exports.newAuthentication = function (req, res){
     if (
-            req.query.AuthenticationId
+        req.body.UserString &&
+        req.body.Password &&
+        req.body.FirstName &&
+        req.body.LastName
         ){
 
-        var authenticationId = req.query.AuthenticationId;
+        var userstring = req.body.UserString;
+        var password = req.body.Password;
+        var firstname = req.body.FirstName;
+        var lastname = req.body.LastName;
+
+        authHelper.newAuthentication(req, res, userstring, password, firstname, lastname, function (result){
+            if (!result.Error){
+                res.json({
+                    RowsReturned : result.rows.length,
+                    Data : result.rows,
+                    Error : null,
+                    ErrorDesc : null,
+                    ErrorCode: null
+                })
+            }else{
+                res.json({
+                    RowsReturned : null,
+                    Data : null,
+                    Error : result.Error,
+                    ErrorDesc :  result.ErrorDesc,
+                    ErrorCode:  result.ErrorCode
+                })
+            }
+        });
+
+    }else{
+        res.json({
+            RowsReturned : null,
+            Data : false,
+            Error : true,
+            ErrorDesc : 'Username, Password and User Details Required',
+            ErrorCode: null
+        });
+    }
+}
+
+exports.destroyAuthentication = function (req, res){
+    authHelper.destroyAuthentication(req, res);
+    res.json({
+        RowsReturned : null,
+        Data : true,
+        Error : false,
+        ErrorDesc : null,
+        ErrorCode: null
+    });
+}
+
+exports.verifyAccount = function(req, res){
+//    if (
+//            req.query.AuthenticationId
+//        ){
+
+        var authenticationId = "X2WJOPNQ-8CF0HRWG-68L6T8LB";
         var lastUpdate = dateTimeHelper.utcNow();
 
         dbConnectHelper.connectAndQuery(req, res
@@ -73,21 +121,45 @@ exports.verifyAccount = function(req, res){
                 , authenticationId
             ],
         function(){
-            res.json({
-                RowsReturned : null,
-                Data : true,
-                Error : false,
-                ErrorDesc : null,
-                ErrorCode: null
-            });
+            //check if user is already logged in. If not, log them in after verification
+            if (req.session.authenticationId){
+                res.json({
+                    RowsReturned : null,
+                    Data : true,
+                    Error : false,
+                    ErrorDesc : null,
+                    ErrorCode: null
+                });
+            }else{
+                authHelper.authenticateExpress(req, res, null, authenticationId, function (result, entityDetails){
+                    if (result){
+                        res.json({
+                            RowsReturned : entityDetails.rows.length,
+                            Data : entityDetails.rows,
+                            Error : false,
+                            ErrorDesc : null,
+                            ErrorCode: null
+                        })
+                    }else{
+                        res.json({
+                            RowsReturned : null,
+                            Data : false,
+                            Error : true,
+                            ErrorDesc : 'Authentication Failed',
+                            ErrorCode: null
+                        });
+                    }
+                });
+            }
         });
-    }else{
-        res.json({
-            RowsReturned : null,
-            Data : false,
-            Error : true,
-            ErrorDesc : 'Unauthorized Access!',
-            ErrorCode: null
-        });
-    }
+
+//    }else{
+//        res.json({
+//            RowsReturned : null,
+//            Data : false,
+//            Error : true,
+//            ErrorDesc : 'Unauthorized Access!',
+//            ErrorCode: null
+//        });
+//    }
 }
