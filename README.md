@@ -34,9 +34,20 @@ http://hostName/{{apiType}}/{{base}}/{{action}}
 
 `Forever` **(forever)** - Package that allows NodeJs to run forever on the server
 
+`Embedded JS Layouts` **(express-ejs-layouts)** - HTML and layouts
+
+`Embedded JS` **(ejs)** - HTML rendering
+
+`Http Requests` **(request)** - HTTP requests for express middleware
+
+`Passport` **(OAuth)** - Authentication for Facebook, Twitter, Google, etc..
+
 ---
 
 ### Helper Functions
+#### Authentication
+**authenticate(`req`, `res`, `userString`, `pass`, `legacy`, `callback`)** - authenticate user to app, legacy input for true / false for PHP password compat fallback.
+
 #### crypt
 **encrypt(`req`, `res`, `string`)** - encrypts a string and outputs a hashed string
 
@@ -460,6 +471,105 @@ http://{{host-name}}/core/productValue/deleteProductValue
 
 ### eyeOrcas API
 eyeOrcas APIs are customized APIs for eyeOrcas Web App.
+
+#### AUTHENTICATION
+
+##### authenticate `Released v0.1`
+
+Authentication API for both iOS / Android App, Portal and RM.
+
+````
+http://{{host-name}}/eyeorcas/authentication/authenticate
+````
+**Parameters**
+
+`POST` `AuthenticationString` - email / username swfong@gmail.com
+
+`POST` `Password` - user password
+
+**Results**
+
+Returns entity details by default
+
+````
+{
+  "RowsReturned": 1,
+  "Data": [
+    {
+      "entity_id": "WBI9RIAQ-R4HJN933-0PP6OSDH",
+      "first_name": "Shi Wei",
+      "last_name": "Fong",
+      "nick_name": "Shi Wei Fong",
+      "name": "Shi Wei Fong",
+      "status": "V",
+      "approved": true,
+      "type": "1",
+      "create_date": "2014-03-30T00:10:15.000Z",
+      "last_update": "2014-03-30T00:10:15.000Z",
+      "authentication_id": "9J401T2T-O0WXG9CG-2TB9L9TW",
+      "primary_email_id": "CFGNE190-2H0KQ028-UAI99C20",
+      "primary_phone_id": null
+    }
+  ],
+  "Error": null,
+  "ErrorDesc": null,
+  "ErrorCode": null
+}
+````
+
+##### verifyAccount `Released v0.1`
+
+Authentication / User Verification API for eyeOrcas App / Portal
+
+````
+http://{{host-name}}/eyeorcas/authentication/verifyAccount
+````
+**Parameters**
+
+`GET` `AuthenticationId` - user's authentication ID is the key for verification
+
+
+**Results**
+
+Returns true as verified and false as verification failed.
+
+````
+{
+  "RowsReturned": null,
+  "Data": true,
+  "Error": false,
+  "ErrorDesc": null,
+  "ErrorCode": null
+}
+````
+
+
+##### newAuthentication `Released v0.1`
+
+New User Registration API for eyeOrcas App / Portal
+
+````
+http://{{host-name}}/eyeorcas/authentication/newAuthentication
+````
+**Parameters**
+
+`POST` `UserString` - authentication string such as email address
+
+`POST` `Password` - authentication credential minimum of 8 characters
+
+`POST` `First Name` - User's First Name
+
+`POST` `Last Name` - User's Last Name
+
+**Results**
+
+Returns created user details upon success
+
+````
+
+````
+
+
 #### Activity
 **getActivities** (Released v0.1)
 
@@ -512,20 +622,6 @@ eyeOrcas Remote Manage--- APIs are customized APIs for eyeOrcas Remote managemen
 These eyeOrcas APIs are currently legacy APIs and will require review.
 
 #### Authentication
-
-**logInFromApp** (High Priority Release)
-
-- Rewrite based on old SP
-- App Requires the entityDetails to be returned
-
-**signUp** (High Priority Release)
-
-**login**
-
-**verifyAccount** (High Priority Release)
-
-- U for unverified
-- V for verified
 
 **resetPasswordRequest**
 

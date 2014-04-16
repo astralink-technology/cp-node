@@ -10,6 +10,9 @@
       "moment" : "*",
       "bcrypt" : "*",
       "forever" : "*",
-      "marked" : "*"
+      "express-ejs-layouts" : "*",
+      "ejs" : "*",
+      "request" : "*",
+      "passport" : "*"
   }
 }

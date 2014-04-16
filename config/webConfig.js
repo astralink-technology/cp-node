@@ -1,12 +1,21 @@
 exports.dbConfig = function(){
     var dbConfig = new Object();
     //When launching for eyeOrcas, use this
+//    dbConfig.appName = 'eyeOrcas';
+//    dbConfig.username = 'ubuntu';
+//    dbConfig.password = 'astralink';
+//    dbConfig.host = 'api.eyeorcas.com';
+//    dbConfig.port = '5432';
+//    dbConfig.db = 'OrcasEye';
+
+    //When development for eyeOrcas, use this
     dbConfig.appName = 'eyeOrcas';
     dbConfig.username = 'ubuntu';
     dbConfig.password = 'astralink';
-    dbConfig.host = 'api.eyeorcas.com';
+    dbConfig.host = 'dev.eyeorcas.com';
     dbConfig.port = '5432';
-    dbConfig.db = 'OrcasEye';
+    dbConfig.db = 'EyeOrcas';
+
 
     //When launching for chillipanda, use this
 //    dbConfig.appName = 'cp-core';
@@ -31,4 +40,18 @@ exports.mailConfig = function(){
     mailConfig.bcc = 'shiwei@chilli-panda.com';
 
     return mailConfig;
+}
+
+exports.legacyConfig = function(){
+
+    var legacyConfig = new Object();
+
+    //local development mode
+    legacyConfig.legacyHostUrl = 'http://cp-legacy';
+
+    //production mode
+    //legacyConfig.legacyHostUrl = 'http://legacy.chilli-panda.com';
+
+    return legacyConfig;
+
 }

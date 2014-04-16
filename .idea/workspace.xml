@@ -2,278 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71f60c3-df67-4301-bdfe-426161b87588" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/bin/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/bin/knex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/bin/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/base/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/base/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/base/sqlite3/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/base/sqlite3/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/pool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/mysql/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/mysql/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/postgres.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/postgres/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/postgres/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/sqlite3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/sqlite3/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/server/sqlite3/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/web/cordova.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/clients/web/websql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/knex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/builder/joinclause.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/cli/migrate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/migrate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/raw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/schemabuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/schemainterface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/sqlstring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/stub/coffee.stub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/stub/js.stub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/stub/ls.stub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/lib/transaction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/any.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/assert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/bluebird.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/call_get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/captured_trace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/catch_filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/direct_resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/errors_api_rejection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/es5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/finally.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/generators.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/nodeify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/promise_resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/promise_spawn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/promisify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/properties_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/reduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/schedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/settle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/settled_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/some.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/some_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/synchronous_inspection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/thenables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/timers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/any.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/assert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/bluebird.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/call_get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/captured_trace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/catch_filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/direct_resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/errors_api_rejection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/es5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/finally.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/generators.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/nodeify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/promise_resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/promise_spawn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/promisify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/properties_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/reduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/schedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/settle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/settled_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/some.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/some_promise_array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/synchronous_inspection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/thenables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/timers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/zalgo/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/zalgo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/themes/winston-dark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/colors/themes/winston-light.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/pool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/generic-pool-redux/test/generic-pool.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.compat.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/lodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/lodash/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/examples/pow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/perm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/rel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/return_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/umask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/boolean_double.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/boolean_single.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/default_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/default_singles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/divide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/line_count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/line_count_options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/line_count_wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/nonopt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/usage-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/example/xup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/example/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/dash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/default_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/dotted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/long.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/minimist/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/example/meat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/test/break.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/node_modules/wordwrap/test/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/_.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/_/argv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/_/bin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/dash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/node_modules/optimist/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/additional.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/aggregate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/deletes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/inserts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/joins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/selects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/transaction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/unions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/builder/updates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/knex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/migrate/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/migrate/test/20131019235242_migration_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/migrate/test/20131019235306_migration_2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/migrate/test/random_bad_file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Additional.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Aggregate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Inserts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Joins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Selects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/output/Updates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/integration/schema/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/builder/joinclause.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/base/grammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/base/schemagrammar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/pool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/server/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/server/mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/server/postgres.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/clients/server/sqlite3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/knex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/raw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/knex/test/unit/transaction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/partials/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/partials/partial1.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/partials/partial2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md-html-converter.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/activity.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/crypt.js" afterPath="$PROJECT_DIR$/helpers/crypt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/helper-demo/crypt.js" afterPath="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/device.js" afterPath="$PROJECT_DIR$/routes/core/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/device.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceSession.js" afterPath="$PROJECT_DIR$/routes/core/deviceSession.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/deviceValue.js" afterPath="$PROJECT_DIR$/routes/core/deviceValue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/email.js" afterPath="$PROJECT_DIR$/routes/core/email.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/enterprise.js" afterPath="$PROJECT_DIR$/routes/core/enterprise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/entity.js" afterPath="$PROJECT_DIR$/routes/core/entity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/image.js" afterPath="$PROJECT_DIR$/routes/core/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/log.js" afterPath="$PROJECT_DIR$/routes/core/log.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/media.js" afterPath="$PROJECT_DIR$/routes/core/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/media.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/message.js" afterPath="$PROJECT_DIR$/routes/core/message.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/phone.js" afterPath="$PROJECT_DIR$/routes/core/phone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/product.js" afterPath="$PROJECT_DIR$/routes/core/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productRegistration.js" afterPath="$PROJECT_DIR$/routes/core/productRegistration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" afterPath="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/core/productValue.js" afterPath="$PROJECT_DIR$/routes/core/productValue.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webConfig.js" afterPath="$PROJECT_DIR$/config/webConfig.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -298,96 +52,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deviceValue.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
+      <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
+            <state line="28" column="47" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="md-html-converter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/md-html-converter.js">
+      <file leaf-file-name="device.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webConfig.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/webConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="574" selection-end="574" vertical-scroll-proportion="0.38860103" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="62" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <file leaf-file-name="media.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/media.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="195">
+            <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <file leaf-file-name="productRegistration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="435">
+            <state line="6" column="24" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="authentication.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/helpers/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="315">
+            <state line="130" column="8" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7668394" vertical-offset="1506" max-vertical-offset="2205">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="entity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="594" selection-end="594" vertical-scroll-proportion="271.1111" vertical-offset="7710" max-vertical-offset="8265">
+            <state line="105" column="10" selection-start="3180" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2970">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="crypt.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbConnect.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="34" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/helper-demo/authentication.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="36" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -404,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/eyeorcas/Media.js" />
-        <option value="$PROJECT_DIR$/helpers/idgen.js" />
         <option value="$PROJECT_DIR$/helpers/dbconnect.js" />
         <option value="$PROJECT_DIR$/helpers/mailsender.js" />
         <option value="$PROJECT_DIR$/routes/helperDemo.js" />
@@ -415,43 +164,48 @@
         <option value="$PROJECT_DIR$/helpers/datetime.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/datetime.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/idgen.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/device.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
         <option value="$PROJECT_DIR$/helpers/mailSender.js" />
         <option value="$PROJECT_DIR$/helpers/apiResponse.js" />
-        <option value="$PROJECT_DIR$/helpers/dbConnect.js" />
-        <option value="$PROJECT_DIR$/routes/core/email.js" />
-        <option value="$PROJECT_DIR$/routes/core/productValue.js" />
-        <option value="$PROJECT_DIR$/routes/core/product.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
-        <option value="$PROJECT_DIR$/routes/core/productRegistration.js" />
-        <option value="$PROJECT_DIR$/routes/core/message.js" />
-        <option value="$PROJECT_DIR$/routes/core/phone.js" />
-        <option value="$PROJECT_DIR$/routes/core/media.js" />
-        <option value="$PROJECT_DIR$/routes/core/image.js" />
-        <option value="$PROJECT_DIR$/routes/core/log.js" />
-        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
-        <option value="$PROJECT_DIR$/routes/core/entity.js" />
-        <option value="$PROJECT_DIR$/routes/core/enterprise.js" />
-        <option value="$PROJECT_DIR$/helpers/crypt.js" />
         <option value="$PROJECT_DIR$/routes/training/session-training.js" />
         <option value="$PROJECT_DIR$/helpers/session.js" />
-        <option value="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
         <option value="$PROJECT_DIR$/routes/helper-demo/session.js" />
+        <option value="$PROJECT_DIR$/md-html-converter.js" />
+        <option value="$PROJECT_DIR$/README.html" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/helpers/string.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/dbconnect.js" />
+        <option value="$PROJECT_DIR$/config/webConfig.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/crypt.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/activity.js" />
         <option value="$PROJECT_DIR$/routes/core/device.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationship.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceRelationshipValue.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceSession.js" />
         <option value="$PROJECT_DIR$/routes/core/deviceValue.js" />
-        <option value="$PROJECT_DIR$/md-html-converter.js" />
-        <option value="$PROJECT_DIR$/README.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/config/webConfig.js" />
+        <option value="$PROJECT_DIR$/routes/core/email.js" />
+        <option value="$PROJECT_DIR$/routes/core/enterprise.js" />
+        <option value="$PROJECT_DIR$/routes/core/entity.js" />
+        <option value="$PROJECT_DIR$/routes/core/image.js" />
+        <option value="$PROJECT_DIR$/routes/core/log.js" />
+        <option value="$PROJECT_DIR$/routes/core/media.js" />
+        <option value="$PROJECT_DIR$/routes/core/message.js" />
+        <option value="$PROJECT_DIR$/routes/core/phone.js" />
+        <option value="$PROJECT_DIR$/routes/core/product.js" />
+        <option value="$PROJECT_DIR$/routes/core/productRegistration.js" />
+        <option value="$PROJECT_DIR$/routes/core/productValue.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/device.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/media.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/productRegistration.js" />
+        <option value="$PROJECT_DIR$/helpers/crypt.js" />
+        <option value="$PROJECT_DIR$/routes/helper-demo/authentication.js" />
+        <option value="$PROJECT_DIR$/routes/eyeorcas/authentication.js" />
+        <option value="$PROJECT_DIR$/helpers/dbConnect.js" />
+        <option value="$PROJECT_DIR$/helpers/authentication.js" />
       </list>
     </option>
   </component>
@@ -631,6 +385,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -654,17 +422,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eyeorcas-rm-node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cp-legacy" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/routes/helper-demo" />
       <recent name="$PROJECT_DIR$/helpers" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/routes/training" />
     </key>
   </component>
@@ -716,23 +484,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25779969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26190478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -750,38 +518,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="24" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="25" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="34" selection-start="2277" selection-end="2277" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="2220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="14" selection-start="3251" selection-end="3257" vertical-scroll-proportion="0.0" vertical-offset="1307" max-vertical-offset="2760">
@@ -803,135 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/helper-demo/mailsender.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="51" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="25" selection-start="7638" selection-end="7638" vertical-scroll-proportion="0.0" vertical-offset="2299" max-vertical-offset="3030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="15" selection-start="3198" selection-end="3198" vertical-scroll-proportion="-0.8911917" vertical-offset="2121" max-vertical-offset="2700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="19" selection-start="1808" selection-end="1815" vertical-scroll-proportion="-1.6062176" vertical-offset="1830" max-vertical-offset="3015">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="44" selection-start="3911" selection-end="3911" vertical-scroll-proportion="0.19689119" vertical-offset="1866" max-vertical-offset="2445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="5" selection-start="4505" selection-end="4505" vertical-scroll-proportion="0.81865287" vertical-offset="1896" max-vertical-offset="2475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="3666" selection-end="3666" vertical-scroll-proportion="0.22279793" vertical-offset="1641" max-vertical-offset="2220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="40" selection-start="3576" selection-end="3576" vertical-scroll-proportion="-0.46632123" vertical-offset="1935" max-vertical-offset="2760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="160" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="984" selection-end="984" vertical-scroll-proportion="0.6476684" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="3" selection-start="3117" selection-end="3655" vertical-scroll-proportion="0.0" vertical-offset="1416" max-vertical-offset="2805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="5" selection-start="3435" selection-end="3979" vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="2970">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/dateTime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/idGen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="11" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/helper-demo/idgen.js">
@@ -943,121 +557,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/helper-demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/datetime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/crypt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/mailSender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/helper-demo/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding>
-            <marker date="1397446305000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="5" selection-start="2414" selection-end="2970" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="2325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="18" selection-start="3317" selection-end="3317" vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="2595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="5" selection-start="2276" selection-end="2910" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/email.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="24" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/enterprise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="5" selection-start="1916" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="5" selection-start="1974" selection-end="2531" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="60" selection-start="2890" selection-end="2949" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md-html-converter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="594" selection-end="594" vertical-scroll-proportion="271.1111" vertical-offset="7710" max-vertical-offset="8265">
+        <state line="37" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="9045">
           <folding />
         </state>
       </provider>
@@ -1065,30 +570,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="435">
+        <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.25906736" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.25906736" vertical-offset="0" max-vertical-offset="579" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="195">
+        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
@@ -1100,16 +596,275 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bcrypt/bcrypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="655" selection-end="655" vertical-scroll-proportion="0.44041452" vertical-offset="0" max-vertical-offset="2955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+        <state line="20" column="35" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/dateTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/datetime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="52" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/idGen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/crypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="574" selection-end="574" vertical-scroll-proportion="0.38860103" vertical-offset="0" max-vertical-offset="585">
+        <state line="49" column="50" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/mailSender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceRelationshipValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceSession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/deviceValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/enterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/phone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/productRegistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/productValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.051813472" vertical-offset="0" max-vertical-offset="2760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/deviceRelationship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/crypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/helper-demo/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/productRegistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/eyeorcas/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="47" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/dbConnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/core/entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="10" selection-start="3180" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="8" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.7668394" vertical-offset="1506" max-vertical-offset="2205">
           <folding />
         </state>
       </provider>
