@@ -537,12 +537,45 @@ http://{{host-name}}/eyeorcas/authentication/verifyAccount
 
 **Results**
 
-Returns true after verification. Returns false if verification failes. If user is not logged in, he / she will be logged in automatically upon verification and user details will be returned
+Returns true after verification. Returns false if verification fails.
 
 ````
 {
   "RowsReturned": null,
   "Data": true,
+  "Error": false,
+  "ErrorDesc": null,
+  "ErrorCode": null
+}
+````
+
+If user is not logged in, he / she will be logged in automatically upon verification and user details will be returned
+
+````
+{
+  "RowsReturned": 1,
+  "Data": [
+    {
+      "entity_id": "PBVU0JM8-DTHQ6Y11-IGI1UC5L",
+      "first_name": "hello",
+      "last_name": "panda1",
+      "nick_name": null,
+      "name": "hello panda1",
+      "status": "V",
+      "approved": true,
+      "type": "1",
+      "create_date": "2014-04-16T01:22:47.046Z",
+      "last_update": "2014-04-16T17:31:12.032Z",
+      "authentication_id": "X2WJOPNQ-8CF0HRWG-68L6T8LB",
+      "primary_email_id": "hello1@gmail.com",
+      "primary_phone_id": null,
+      "authorization_level": null,
+      "last_login": "2014-04-16T17:31:14.401Z",
+      "last_logout": null,
+      "authentication_string": "hello1@gmail.com",
+      "total_rows": 1
+    }
+  ],
   "Error": false,
   "ErrorDesc": null,
   "ErrorCode": null
