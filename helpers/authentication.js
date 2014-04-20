@@ -13,7 +13,9 @@ function updateAuthenticationLastLogIn(req, res, authenticationId, callback){
             loginTime
             , authenticationId
         ], function(result){
-            callback(result);
+            if (callback){
+                callback(result);
+            }
         });
 }
 
@@ -25,13 +27,17 @@ function checkUserExists(req, res, userString, callback){
         , [
             userStringLower
         ],
-    function(result){
-        if (result.rows.length > 0){
-            callback(true);
-        }else{
-            callback(false);
-        }
-    });
+        function(result){
+            if (result.rows.length > 0){
+                if (callback){
+                    callback(true);
+                }
+            }else{
+                if (callback){
+                    callback(false);
+                }
+            }
+        });
 }
 
 function getEntityDetails(req, res, authenticationId, callback){
@@ -44,7 +50,9 @@ function getEntityDetails(req, res, authenticationId, callback){
             , null
         ]
         , function(result){
-            callback(result);
+            if (callback){
+                callback(result);
+            }
         });
 }
 
@@ -65,7 +73,9 @@ exports.authenticateExpress = function (req, res, userString, authenticationId, 
             //get the details and initiate user session
             getEntityDetails(req, res, authenticationId, function(entityDetails){
                 startUserSession(req, res, entityDetails);
-                callback(true, entityDetails);
+                if (callback){
+                    callback(true, entityDetails);
+                }
             });
         });
     }else{
@@ -84,7 +94,9 @@ exports.authenticateExpress = function (req, res, userString, authenticationId, 
                     //get the details and initiate user session
                     getEntityDetails(req, res, derivedAuthId, function(entityDetails){
                         startUserSession(req, res, entityDetails);
-                        callback(true, entityDetails);
+                        if (callback){
+                            callback(true, entityDetails);
+                        }
                     });
                 });
             });
@@ -100,7 +112,9 @@ exports.authenticate = function(req, res, userString, pass, legacy, callback){
         , [userStringLower]
         , function(result){
             if (result.rows.length == 0){
-                callback(false);
+                if (callback){
+                    callback(false);
+                }
             }else{
                 var authenticationId = result.rows[0].authentication_id;
                 //if user is found, check the password
@@ -108,7 +122,9 @@ exports.authenticate = function(req, res, userString, pass, legacy, callback){
                 var authenticated = cryptHelper.decrypt(req, res, pass, userHash);
                 if (authenticated){
                     getEntityDetails(req, res, authenticationId, function(entityDetails){
-                        callback(true, entityDetails);
+                        if (callback){
+                            callback(true, entityDetails);
+                        }
                         startUserSession(req, res, entityDetails);
                     });
                     updateAuthenticationLastLogIn(req, res, authenticationId);
@@ -118,26 +134,27 @@ exports.authenticate = function(req, res, userString, pass, legacy, callback){
                         cryptHelper.legacyDecrypt(req, res, pass, userHash, function(legacyAuth){
                             if (legacyAuth){
                                 getEntityDetails(req, res, authenticationId, function(entityDetails){
-                                    callback(true, entityDetails);
+                                    if (callback){
+                                        callback(true, entityDetails);
+                                    }
                                     startUserSession(req, res, entityDetails);
                                 });
                                 updateAuthenticationLastLogIn(req, res, authenticationId);
                             }else{
-                                callback(false);
+                                if (callback){
+                                    callback(false);
+                                }
                             }
                         });
                     }else{
-                        callback(false);
+                        if (callback){
+                            callback(false);
+                        }
                     }
                 }
             }
         });
 
-}
-
-//generic session destroy
-exports.destroyAuthentication = function (req, res){
-    req.session.destroy();
 }
 
 //Generic signup method
@@ -150,6 +167,7 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
     var entityId = idGenHelper.generateId();
 
     var createDate = dateTimeHelper.utcNow();
+    var defaultUserAuthLevel = 300;
 
     checkUserExists(req, res, userString, function(exist){
         if (!exist){
@@ -169,7 +187,7 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
                         , null
                         , null
                         , null
-                        , null
+                        , defaultUserAuthLevel
                         , createDate
                         , null
                     ],
@@ -206,7 +224,9 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
                                         , null
                                     ],
                                     function(result){
-                                        callback(result);
+                                        if (callback){
+                                            callback(result);
+                                        }
                                     }
                                 );
                             }
@@ -216,15 +236,19 @@ exports.newAuthentication = function(req, res, userString, pass, firstName, last
                 var result = new Object();
                 result.Error = true;
                 result.ErrorDesc = "Password length must be more than 8";
-                result.ErrorCode = 500;
-                callback(result);
+                result.ErrorCode = 500
+                if (callback){
+                    callback(result);
+                }
             }
         }else{
             var result = new Object();
             result.Error = true;
             result.ErrorDesc = "User Exists";
             result.ErrorCode = 500;
-            callback(result);
+            if (callback){
+                callback(result);
+            }
         }
     })
 }
