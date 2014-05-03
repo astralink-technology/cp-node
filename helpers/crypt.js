@@ -18,11 +18,13 @@ exports.decrypt = function(req, res, string, hash){
 
 exports.legacyDecrypt = function(req, res, string, hash, result){
     request.post(
-        'http://cp-legacy/helper/verify',
+        config.legacyConfig + '/helper/verify',
         { form: { InputPassword: string, HashedPassword : hash } },
         function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 result(Boolean(body.replace(/\n/g, "")));
+            }else{
+                result(false);
             }
         }
     );

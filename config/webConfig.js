@@ -47,10 +47,10 @@ exports.legacyConfig = function(){
     var legacyConfig = new Object();
 
     //local development mode
-    legacyConfig.legacyHostUrl = 'http://cp-legacy';
+//    legacyConfig.legacyHostUrl = 'http://cp-legacy';
 
     //production mode
-    //legacyConfig.legacyHostUrl = 'http://legacy.chilli-panda.com';
+    legacyConfig.legacyHostUrl = 'http://legacy.chilli-panda.com';
 
     return legacyConfig;
 
